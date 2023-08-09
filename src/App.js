@@ -2,6 +2,7 @@ import './App.css';
 import ClickEventFun from './Functions/ClickEventFun';
 import ClassCom from './components/ClassCom';
 import FunctionalCom from './components/FunctionalCom';
+import StateInCom from './components/StateInCom';
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <ClassCom/>
       <br/>
       <ClickEventFun/>
+      <br/>
+      <StateInCom/>
     </div>
   );
 }
