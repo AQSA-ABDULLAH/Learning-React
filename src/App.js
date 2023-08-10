@@ -7,6 +7,7 @@ import PropsWithCom from './components/PropsWithCom';
 import StateInCom from './components/StateInCom';
 import GetInputValue from './Functions/GetInputValue';
 import HideShowToggle from './Functions/HideShowToggle';
+import HandelingForm from './Forms/HandelingForm';
 
 function App() {
   const [data, setData] = useState("Aqsa");
@@ -29,6 +30,9 @@ function App() {
       <GetInputValue/>
       <hr/>
       <HideShowToggle/>
+      <hr/>
+      <HandelingForm/>
+      <hr/>
     </div>
   );
 }
