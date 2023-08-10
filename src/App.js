@@ -35,6 +35,7 @@ function App() {
       <HandelingForm/>
       <hr/>
       <ConditionalRendering/>
+      <hr/>
     </div>
   );
 }
