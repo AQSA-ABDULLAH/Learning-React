@@ -8,6 +8,7 @@ import StateInCom from './components/StateInCom';
 import GetInputValue from './Functions/GetInputValue';
 import HideShowToggle from './Functions/HideShowToggle';
 import HandelingForm from './Forms/HandelingForm';
+import ConditionalRendering from './Molecules/ConditionalRendering';
 
 function App() {
   const [data, setData] = useState("Aqsa");
@@ -33,6 +34,7 @@ function App() {
       <hr/>
       <HandelingForm/>
       <hr/>
+      <ConditionalRendering/>
     </div>
   );
 }
