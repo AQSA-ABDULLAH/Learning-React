@@ -6,6 +6,7 @@ import FunctionalCom from './components/FunctionalCom';
 import PropsWithCom from './components/PropsWithCom';
 import StateInCom from './components/StateInCom';
 import GetInputValue from './Functions/GetInputValue';
+import HideShowToggle from './Functions/HideShowToggle';
 
 function App() {
   const [data, setData] = useState("Aqsa");
@@ -26,6 +27,8 @@ function App() {
       <button onClick={updateData} >Start</button>
       <hr/>
       <GetInputValue/>
+      <hr/>
+      <HideShowToggle/>
     </div>
   );
 }
