@@ -5,6 +5,7 @@ import ClassCom from './components/ClassCom';
 import FunctionalCom from './components/FunctionalCom';
 import PropsWithCom from './components/PropsWithCom';
 import StateInCom from './components/StateInCom';
+import GetInputValue from './Functions/GetInputValue';
 
 function App() {
   const [data, setData] = useState("Aqsa");
@@ -14,15 +15,17 @@ function App() {
   return (
     <div className="App">
       <FunctionalCom/>
-      <br/>
+      <hr/>
       <ClassCom/>
-      <br/>
+      <hr/>
       <ClickEventFun/>
-      <br/>
+      <hr/>
       <StateInCom/>
-      <br/>
+      <hr/>
       <PropsWithCom name={data} />
       <button onClick={updateData} >Start</button>
+      <hr/>
+      <GetInputValue/>
     </div>
   );
 }
