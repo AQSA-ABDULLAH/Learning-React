@@ -11,6 +11,7 @@ import HandelingForm from './Forms/HandelingForm';
 import ConditionalRendering from './Molecules/ConditionalRendering';
 import FormValidation from './Forms/FormValidation';
 import Constructor from './LifeCyceMethods/Constructor';
+import DidMount from './LifeCyceMethods/DidMount';
 
 function App() {
   const [data, setData] = useState("Aqsa");
@@ -41,6 +42,8 @@ function App() {
       <FormValidation/>
       <hr/>
       <Constructor/>
+      <hr/>
+      <DidMount/>
     </div>
   );
 }
