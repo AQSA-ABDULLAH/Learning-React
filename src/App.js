@@ -9,6 +9,7 @@ import GetInputValue from './Functions/GetInputValue';
 import HideShowToggle from './Functions/HideShowToggle';
 import HandelingForm from './Forms/HandelingForm';
 import ConditionalRendering from './Molecules/ConditionalRendering';
+import FormValidation from './Forms/FormValidation';
 
 function App() {
   const [data, setData] = useState("Aqsa");
@@ -36,6 +37,7 @@ function App() {
       <hr/>
       <ConditionalRendering/>
       <hr/>
+      <FormValidation/>
     </div>
   );
 }
