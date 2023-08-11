@@ -10,6 +10,7 @@ import HideShowToggle from './Functions/HideShowToggle';
 import HandelingForm from './Forms/HandelingForm';
 import ConditionalRendering from './Molecules/ConditionalRendering';
 import FormValidation from './Forms/FormValidation';
+import Constructor from './LifeCyceMethods/Constructor';
 
 function App() {
   const [data, setData] = useState("Aqsa");
@@ -38,6 +39,8 @@ function App() {
       <ConditionalRendering/>
       <hr/>
       <FormValidation/>
+      <hr/>
+      <Constructor/>
     </div>
   );
 }
