@@ -1,8 +1,12 @@
 import React from 'react'
 import apple from './Images/apple.jpg';
+import cart from './Images/cart.png';
 export default function Home() {
   return (
     <div>
+        <div className='add-to-cart'>
+            <img src={cart}/>
+        </div>
         <h1>Home Component</h1>
             <div className="cart-wrapper">
                 <div className="img-wrapper item">
