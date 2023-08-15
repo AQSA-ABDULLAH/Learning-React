@@ -6,7 +6,6 @@ import HomeContainer from './Redux/Containers/HomeContainer';
 
 
 //Here are redux import
-
 function App() {
 
   return (
