@@ -1,11 +1,12 @@
 import './App.css';
-import HomeContainer from './Redux/Containers/HomeContainer';
 
 // Here are react import
 // import Home from './Home';
 
 
 //Here are redux import
+import HomeContainer from './Redux/Containers/HomeContainer';
+import HeaderContainer from './Redux/Containers/HeaderContainer';
 function App() {
 
   return (
@@ -14,7 +15,8 @@ function App() {
       {/* <Home/> */}
 
       {/* Here is Redux Files */}
-      <HomeContainer/>
+      <HeaderContainer/>
+      <HomeContainer />
     </div>
   );
 }
