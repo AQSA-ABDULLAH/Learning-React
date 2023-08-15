@@ -1,13 +1,14 @@
 import React from 'react'
 import apple from './Images/apple.jpg';
 import cart from './Images/cart.png';
-export default function Home() {
-  return (
-    <div>
-        <div className='add-to-cart'>
-            <img src={cart}/>
-        </div>
-        <h1>Home Component</h1>
+export default function Home(props) {
+    console.log("home", props);
+    return (
+        <div>
+            <div className='add-to-cart'>
+                <img src={cart} />
+            </div>
+            <h1>Home Component</h1>
             <div className="cart-wrapper">
                 <div className="img-wrapper item">
                     <img src={apple} />
@@ -21,9 +22,11 @@ export default function Home() {
                     </span>
                 </div>
                 <div className="btn-wrapper item">
-                    <button>Add To Cart</button>
+                    <button onClick={() =>
+                        props.addToCartHandler({price:1000, name: 'i phone 11'})
+                    } >Add To Cart</button>
                 </div>
             </div>
-    </div>
-  )
+        </div>
+    )
 }
