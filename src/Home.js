@@ -12,6 +12,7 @@ import ConditionalRendering from './Molecules/ConditionalRendering';
 import FormValidation from './Forms/FormValidation';
 import Constructor from './LifeCyceMethods/Constructor';
 import DidMount from './LifeCyceMethods/DidMount';
+import Hooks from './Hooks/Hooks';
 
 export default function Home() {
     const [data, setData] = useState("Aqsa");
@@ -45,6 +46,7 @@ export default function Home() {
       <hr/>
       <DidMount/>
       <hr/>
+      <Hooks/>
     </div>
   )
 }
