@@ -13,6 +13,7 @@ import FormValidation from './Forms/FormValidation';
 import Constructor from './LifeCyceMethods/Constructor';
 import DidMount from './LifeCyceMethods/DidMount';
 import Hooks from './Hooks/Hooks';
+import UseEffect from './Hooks/UseEffect';
 
 export default function Home() {
     const [data, setData] = useState("Aqsa");
@@ -47,6 +48,8 @@ export default function Home() {
       <DidMount/>
       <hr/>
       <Hooks/>
+      <hr/>
+      <UseEffect/>
     </div>
   )
 }

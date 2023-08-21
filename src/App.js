@@ -1,7 +1,7 @@
 import './App.css';
 
 // Here are react import
-// import Home from './Home';
+import Home from './Home';
 
 
 //Here are redux import
@@ -12,12 +12,14 @@ function App() {
   return (
     <div className="App">
       {/* Here is React File */}
-      {/* <Home/> */}
+      <Home />
 
+
+      <h1 className="Heading">Redux Start Here</h1>
       {/* Here is Redux Files */}
-      <HeaderContainer/>
+      < HeaderContainer />
       <HomeContainer />
-    </div>
+    </div >
   );
 }
 
