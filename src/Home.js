@@ -14,6 +14,7 @@ import Constructor from './LifeCyceMethods/Constructor';
 import DidMount from './LifeCyceMethods/DidMount';
 import Hooks from './Hooks/Hooks';
 import UseEffect from './Hooks/UseEffect';
+import PasswordGenerator from './React/PasswordGenerator';
 
 export default function Home() {
     const [data, setData] = useState("Aqsa");
@@ -50,6 +51,8 @@ export default function Home() {
       <Hooks/>
       <hr/>
       <UseEffect/>
+      <hr/>
+      <PasswordGenerator/>
     </div>
   )
 }
